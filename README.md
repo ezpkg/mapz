@@ -15,7 +15,7 @@ Package mapz extends the package [golang.org/x/exp/maps](https://pkg.go.dev/gola
 ## Installation
 
 ```sh
-go get -u ezpkg.io/mapz@v0.0.5
+go get -u ezpkg.io/mapz@v0.0.6
 ```
 
 ## Examples
@@ -26,6 +26,12 @@ mapCodes := mapz.FromSliceFunc([]int{1, 2, 3}, func(i int) string {
 })
 fmt.Println(mapCodes)
 ```
+
+## Similar Packages
+
+This package is based on:
+
+- [golang.org/x/exp/maps](https://pkg.go.dev/golang.org/x/exp/maps)
 
 ## About ezpkg.io
 
